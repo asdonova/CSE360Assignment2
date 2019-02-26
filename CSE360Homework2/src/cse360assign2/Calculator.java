@@ -46,7 +46,7 @@ public class Calculator {
 	 * @param no parameters are used for this function
 	 */
 	public int getTotal () {
-		return 0;
+		return total;
 	}
 	
 	/**
@@ -55,7 +55,7 @@ public class Calculator {
 	 * @param Integer value: An integer that is added to total.
 	 */
 	public void add (int value) {
-		
+		total = total + value;
 	}
 	
 	/**
@@ -64,7 +64,7 @@ public class Calculator {
 	 * @param Integer value: An integer that is subtracted from the total.
 	 */
 	public void subtract (int value) {
-		
+		total = total - value;
 	}
 	
 	/**
@@ -73,7 +73,7 @@ public class Calculator {
 	 * @param Integer value: An integer that is multiplied to the total.
 	 */
 	public void multiply (int value) {
-		
+		total = total * value;
 	}
 	
 	/**
@@ -82,7 +82,14 @@ public class Calculator {
 	 * @param Integer value: An integer that is is divided by the total.
 	 */
 	public void divide (int value) {
-		
+		if(value == 0)
+		{
+			total = 0;
+		}
+		else
+		{
+			total = total/value;
+		}
 	}
 	
 	/**
