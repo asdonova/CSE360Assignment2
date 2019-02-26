@@ -19,9 +19,9 @@ package cse360assign2;
  * Add will add the total with the parameter.
  * Subtract will subtract the total from the parameter.
  * Multiply will multiply the total from the parameter.
- * Divide will divide total by the paramter.
- * getHistory will return all the actions preformed thus far.
- * The constructer Calculator is called when creating an object of this class which
+ * Divide will divide total by the parameter.
+ * getHistory will return all the actions performed thus far.
+ * The constructor Calculator is called when creating an object of this class which
  * sets total to 0.
  * 
  * @author Alec Donovan
@@ -32,7 +32,7 @@ public class Calculator {
 	
 	/**
 	 * This is the constructor of the Calculator that takes no parameters and creates
-	 * a new calculator obeject that contains a variable 'total' which is initalized to
+	 * a new calculator object that contains a variable 'total' which is initalized to
 	 * 0.
 	 */
 	public Calculator () {
@@ -43,7 +43,7 @@ public class Calculator {
 	/**
 	 * The getTotal will return the private variable 'total' from a Calculator
 	 * object.
-	 * @param no paramters are used for this function
+	 * @param no parameters are used for this function
 	 */
 	public int getTotal () {
 		return 0;
@@ -51,7 +51,7 @@ public class Calculator {
 	
 	/**
 	 * The add function will take the total of a Calculator object
-	 * and add that total to the int value within the parameter.
+	 * and add that total to the integer value within the parameter.
 	 * @param Integer value: An integer that is added to total.
 	 */
 	public void add (int value) {
@@ -59,7 +59,7 @@ public class Calculator {
 	}
 	
 	/**
-	 * The subtract funtion will take the total of a Calculator object
+	 * The subtract function will take the total of a Calculator object
 	 * and subtract the integer value in the parameter from that total.
 	 * @param Integer value: An integer that is subtracted from the total.
 	 */
@@ -69,7 +69,7 @@ public class Calculator {
 	
 	/**
 	 * The multiply function will take the total of a Calculator object
-	 * and multiply the integer value in the paramter from the total.
+	 * and multiply the integer value in the parameter from the total.
 	 * @param Integer value: An integer that is multiplied to the total.
 	 */
 	public void multiply (int value) {
@@ -78,7 +78,7 @@ public class Calculator {
 	
 	/**
 	 * The divide function will take the total of a Calculator object
-	 * and divide the integer value in the paramter from the total.
+	 * and divide the integer value in the parameter from the total.
 	 * @param Integer value: An integer that is is divided by the total.
 	 */
 	public void divide (int value) {
@@ -86,7 +86,7 @@ public class Calculator {
 	}
 	
 	/**
-	 * The getHistory function will print all previous functions exectuted
+	 * The getHistory function will print all previous functions executed
 	 * with spaces in between each character.
 	 * @param No parameters used for this function.
 	 */
